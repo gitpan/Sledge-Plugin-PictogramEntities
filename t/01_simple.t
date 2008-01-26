@@ -10,7 +10,7 @@ sub mobile_agent {
 
 sub add_filter  {
     my ($self, $code) = @_;
-    is $code->('Dummy::Pages', "&#xE63E;&#xE65C;"), "&#xE488;&#xE5BC;";
+    is $code->('Dummy::Pages', "&#xE63E;&#xE65C;"), q{<img localsrc="44" /><img localsrc="341" />};
 }
 
 sub add_trigger {

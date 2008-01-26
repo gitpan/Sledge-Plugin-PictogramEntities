@@ -1,4 +1,8 @@
 Revision history for Perl extension Sledge::Plugin::PictogramEntities
 
+0.02
+
+    - fixed dependency.use HTML::Entities::ConvertPictogramMobileJp 0.03.
+
 0.01    Wed Jan 23 16:51:48 2008
         - original version
