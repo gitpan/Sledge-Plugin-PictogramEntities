@@ -1,7 +1,8 @@
 package Sledge::Plugin::PictogramEntities;
 use strict;
 use warnings;
-our $VERSION = '0.02';
+use 5.00800;
+our $VERSION = '0.03';
 use HTML::Entities::ConvertPictogramMobileJp;
 
 sub import {
